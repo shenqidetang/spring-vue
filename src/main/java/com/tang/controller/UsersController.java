@@ -27,7 +27,7 @@ public class UsersController {
 
     @RequestMapping("/login")
     public Boolean login(Users users){
-        System.out.printf(""+ users);
+        System.out.printf("123"+ users);
         return  true;
     }
 
